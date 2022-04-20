@@ -42,3 +42,5 @@ export const sertificates = () => {
 
     })
 }
+
+export default sertificates

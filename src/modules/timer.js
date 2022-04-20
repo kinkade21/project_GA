@@ -45,3 +45,5 @@ export const timer = (deadline) => {
     const addZerro = (num) => (num < 10)  ? '0' + num : num;
     updateTime();
 }
+
+export default timer

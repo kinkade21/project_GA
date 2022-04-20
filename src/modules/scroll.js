@@ -28,3 +28,5 @@ export const scroll = () => {
     window.addEventListener('scroll', trackScroll);
     scrollBtn.addEventListener('click', moveToTop);
 }
+
+export default scroll
