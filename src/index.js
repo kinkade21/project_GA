@@ -3,6 +3,7 @@ import {sertificates}  from "./modules/sertificates";
 import {scroll}  from "./modules/scroll";
 import modal from "./modules/modal";
 import { swiper } from "./modules/swiper";
+import { form } from "./modules/form";
 
 
 
@@ -19,3 +20,45 @@ sertificates();
 scroll();
 modal();
 swiper();
+form({formId: "form1",
+    someElement: [
+        {
+            id: 'calc-total'
+
+        }
+    ]});
+form({formId: "form2",
+    someElement: [
+        {
+            id: 'calc-total'
+
+        }
+    ]});
+form({formId: "callback-form",
+    someElement: [
+        {
+            id: 'calc-total'
+
+        }
+    ]});
+form({formId: "callback-form2",
+    someElement: [
+        {
+            id: 'calc-total'
+
+        }
+    ]});
+form({formId: "application-form",
+    someElement: [
+        {
+            id: 'calc-total'
+
+        }
+    ]});
+form({formId: "application-form2",
+    someElement: [
+        {
+            id: 'calc-total'
+
+        }
+    ]});
