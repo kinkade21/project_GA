@@ -4,7 +4,7 @@ import {scroll}  from "./modules/scroll";
 import modal from "./modules/modal";
 import { swiper } from "./modules/swiper";
 import { form } from "./modules/form";
-
+import { validation } from "./modules/validation";
 
 
 
@@ -62,3 +62,4 @@ form({formId: "application-form2",
 
         }
     ]});
+    validation();
