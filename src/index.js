@@ -7,6 +7,8 @@ import { form } from "./modules/form";
 import { validation } from "./modules/validation";
 import { calculator } from "./modules/calculator";
 import { burger } from "./modules/burger";
+import { servicesModal } from "./modules/servicesModal";
+import { tabs } from "./modules/tabs";
 
 
 
@@ -69,3 +71,5 @@ form({formId: "application-form2",
     validation();
     calculator();
     burger();
+    servicesModal();
+    tabs();
