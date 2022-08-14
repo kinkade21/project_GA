@@ -6,6 +6,7 @@ import { swiper } from "./modules/swiper";
 import { form } from "./modules/form";
 import { validation } from "./modules/validation";
 import { calculator } from "./modules/calculator";
+import { burger } from "./modules/burger";
 
 
 
@@ -67,3 +68,4 @@ form({formId: "application-form2",
 
     validation();
     calculator();
+    burger();
